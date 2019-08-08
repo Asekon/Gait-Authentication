@@ -11,7 +11,7 @@ Save your Gait in the local database
 1-Enter your name
 2-press "Sign up" and put the phone in your pocket.
 3-keep walking in a natural and straight manner until the application makes a notification sound.
-4-If for any reason the user does not walk properly, the session must be restarted. ( Entering a user name that already exists while signing up will over right the existing profile)
+4-If for any reason the user does not walk properly, the session must be restarted. ( Entering a user name that already exists while signing up will overwrite the existing profile)
 ```
 
 Attempt to login using your Gait
@@ -19,7 +19,7 @@ Attempt to login using your Gait
 1-Enter your name
 2-press "Log in" and put the phone in your pocket.
 3-keep walking in a natural and straight manner until the application makes a notification sound.
-4-The application will either accept or deny the claimed user depending on whether his current Gait is similar to the one saved in the signing up process. ( The Ratio is the similarity metric, the Lower the ratio the more similar the Gait. < 1 being Ideal and 1.3 being acceptable)
+4-The application will either accept or deny the claimed user depending on whether his current Gait is similar to the one saved in the signing up process for this specific user. ( The Ratio is the similarity metric, the Lower the ratio the more similar the Gait. < 1 being ideal while 1.3 being acceptable)
 ```
 
 Graphs
